@@ -1,0 +1,102 @@
+2020-01-28 05:05:01,984 INFO org.apache.hadoop.yarn.client.RMProxy (main): Connecting to ResourceManager at ip-172-31-80-213.ec2.internal/172.31.80.213:8032
+2020-01-28 05:05:07,235 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat (main): Total input files to process : 1
+2020-01-28 05:05:07,250 INFO com.hadoop.compression.lzo.GPLNativeCodeLoader (main): Loaded native gpl library
+2020-01-28 05:05:07,253 INFO com.hadoop.compression.lzo.LzoCodec (main): Successfully loaded & initialized native-lzo library [hadoop-lzo rev 5f788d5e8f90539ee331702c753fa250727128f4]
+2020-01-28 05:05:07,619 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): number of splits:20
+2020-01-28 05:05:07,796 INFO org.apache.hadoop.mapreduce.JobSubmitter (main): Submitting tokens for job: job_1580187833835_0001
+2020-01-28 05:05:08,581 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl (main): Submitted application application_1580187833835_0001
+2020-01-28 05:05:08,778 INFO org.apache.hadoop.mapreduce.Job (main): The url to track the job: http://ip-172-31-80-213.ec2.internal:20888/proxy/application_1580187833835_0001/
+2020-01-28 05:05:08,778 INFO org.apache.hadoop.mapreduce.Job (main): Running job: job_1580187833835_0001
+2020-01-28 05:05:19,926 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1580187833835_0001 running in uber mode : false
+2020-01-28 05:05:19,927 INFO org.apache.hadoop.mapreduce.Job (main):  map 0% reduce 0%
+2020-01-28 05:05:47,105 INFO org.apache.hadoop.mapreduce.Job (main):  map 3% reduce 0%
+2020-01-28 05:05:48,109 INFO org.apache.hadoop.mapreduce.Job (main):  map 7% reduce 0%
+2020-01-28 05:05:51,138 INFO org.apache.hadoop.mapreduce.Job (main):  map 8% reduce 0%
+2020-01-28 05:05:52,142 INFO org.apache.hadoop.mapreduce.Job (main):  map 10% reduce 0%
+2020-01-28 05:06:00,180 INFO org.apache.hadoop.mapreduce.Job (main):  map 18% reduce 0%
+2020-01-28 05:06:01,184 INFO org.apache.hadoop.mapreduce.Job (main):  map 34% reduce 0%
+2020-01-28 05:06:02,189 INFO org.apache.hadoop.mapreduce.Job (main):  map 35% reduce 0%
+2020-01-28 05:06:03,199 INFO org.apache.hadoop.mapreduce.Job (main):  map 36% reduce 0%
+2020-01-28 05:06:06,217 INFO org.apache.hadoop.mapreduce.Job (main):  map 43% reduce 0%
+2020-01-28 05:06:07,222 INFO org.apache.hadoop.mapreduce.Job (main):  map 54% reduce 0%
+2020-01-28 05:06:08,230 INFO org.apache.hadoop.mapreduce.Job (main):  map 61% reduce 0%
+2020-01-28 05:06:09,238 INFO org.apache.hadoop.mapreduce.Job (main):  map 64% reduce 0%
+2020-01-28 05:06:12,256 INFO org.apache.hadoop.mapreduce.Job (main):  map 73% reduce 0%
+2020-01-28 05:06:13,265 INFO org.apache.hadoop.mapreduce.Job (main):  map 81% reduce 0%
+2020-01-28 05:06:14,269 INFO org.apache.hadoop.mapreduce.Job (main):  map 83% reduce 0%
+2020-01-28 05:06:15,273 INFO org.apache.hadoop.mapreduce.Job (main):  map 85% reduce 0%
+2020-01-28 05:06:19,290 INFO org.apache.hadoop.mapreduce.Job (main):  map 87% reduce 0%
+2020-01-28 05:06:20,295 INFO org.apache.hadoop.mapreduce.Job (main):  map 90% reduce 0%
+2020-01-28 05:06:21,299 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 0%
+2020-01-28 05:06:22,304 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 0%
+2020-01-28 05:06:23,309 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 0%
+2020-01-28 05:06:29,336 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 35%
+2020-01-28 05:06:32,351 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 44%
+2020-01-28 05:06:36,366 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 56%
+2020-01-28 05:06:37,373 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2020-01-28 05:06:38,381 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 89%
+2020-01-28 05:06:39,385 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2020-01-28 05:06:41,400 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1580187833835_0001 completed successfully
+2020-01-28 05:06:41,552 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 56
+	File System Counters
+		FILE: Number of bytes read=62489917
+		FILE: Number of bytes written=160340737
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=1860
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=20
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1319425437
+		S3: Number of bytes written=67641452
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Killed reduce tasks=1
+		Launched map tasks=20
+		Launched reduce tasks=10
+		Data-local map tasks=20
+		Total time spent by all maps in occupied slots (ms)=45621696
+		Total time spent by all reduces in occupied slots (ms)=15741792
+		Total time spent by all map tasks (ms)=950452
+		Total time spent by all reduce tasks (ms)=163977
+		Total vcore-milliseconds taken by all map tasks=950452
+		Total vcore-milliseconds taken by all reduce tasks=163977
+		Total megabyte-milliseconds taken by all map tasks=1459894272
+		Total megabyte-milliseconds taken by all reduce tasks=503737344
+	Map-Reduce Framework
+		Map input records=85331845
+		Map output records=15362582
+		Map output bytes=182423954
+		Map output materialized bytes=92934720
+		Input split bytes=1860
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=6626985
+		Reduce shuffle bytes=92934720
+		Reduce input records=15362582
+		Reduce output records=6626985
+		Spilled Records=30725164
+		Shuffled Maps =180
+		Failed Shuffles=0
+		Merged Map outputs=180
+		GC time elapsed (ms)=65792
+		CPU time spent (ms)=371880
+		Physical memory (bytes) snapshot=21387272192
+		Virtual memory (bytes) snapshot=107706638336
+		Total committed heap usage (bytes)=19069403136
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1319425437
+	File Output Format Counters 
+		Bytes Written=67641452
