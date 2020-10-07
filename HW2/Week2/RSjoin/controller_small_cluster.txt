@@ -1,0 +1,60 @@
+2020-02-13T02:40:36.437Z INFO Ensure step 2 jar file s3://hw1-xwq/mr-demo-1.0.jar
+2020-02-13T02:40:37.855Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-3MO8ED4SZC5FM/mr-demo-1.0.jar rs.RSjoin s3://hw1-xwq/input s3://hw1-xwq/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-3MO8ED4SZC5FM/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-82-50
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-3MO8ED4SZC5FM
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  EMR_STEP_ID=s-3MO8ED4SZC5FM
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-3MO8ED4SZC5FM/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-3MO8ED4SZC5FM/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-3MO8ED4SZC5FM
+INFO ProcessRunner started child process 8290
+2020-02-13T02:40:37.858Z INFO HadoopJarStepRunner.Runner: startRun() called for s-3MO8ED4SZC5FM Child Pid: 8290
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-3MO8ED4S...
+INFO Process 8290 still running
+INFO Process 8290 still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-3MO8ED4S...
+INFO total process run time: 2176 seconds
+2020-02-13T03:16:54.150Z INFO Step created jobs: job_1581561554926_0001,job_1581561554926_0002
+2020-02-13T03:16:54.150Z INFO Step succeeded with exitCode 0 and took 2176 seconds

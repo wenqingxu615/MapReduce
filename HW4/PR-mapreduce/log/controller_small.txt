@@ -1,0 +1,59 @@
+2020-03-19T03:07:13.390Z INFO Ensure step 2 jar file s3://pagerank-xwq/mr-demo-1.0.jar
+2020-03-19T03:07:15.005Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-2X0JSPDVYPV01/mr-demo-1.0.jar PageRank.MRpagerank s3://pagerank-xwq/input s3://pagerank-xwq/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-2X0JSPDVYPV01/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-88-150
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-2X0JSPDVYPV01
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  EMR_STEP_ID=s-2X0JSPDVYPV01
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-2X0JSPDVYPV01/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-2X0JSPDVYPV01/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-2X0JSPDVYPV01
+INFO ProcessRunner started child process 8512
+2020-03-19T03:07:15.010Z INFO HadoopJarStepRunner.Runner: startRun() called for s-2X0JSPDVYPV01 Child Pid: 8512
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-2X0JSPDV...
+INFO Process 8512 still running
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-2X0JSPDV...
+INFO total process run time: 946 seconds
+2020-03-19T03:23:01.249Z INFO Step created jobs: job_1584587108743_0001,job_1584587108743_0002,job_1584587108743_0003,job_1584587108743_0004,job_1584587108743_0005,job_1584587108743_0006,job_1584587108743_0007,job_1584587108743_0008,job_1584587108743_0009,job_1584587108743_0010
+2020-03-19T03:23:01.249Z INFO Step succeeded with exitCode 0 and took 946 seconds

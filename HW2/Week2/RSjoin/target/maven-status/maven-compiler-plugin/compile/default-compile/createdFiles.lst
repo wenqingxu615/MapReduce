@@ -1,0 +1,6 @@
+rs/RSjoin$Path2Reducer.class
+rs/RSjoin$Path2Mapper.class
+rs/RSjoin.class
+rs/RSjoin$TriangleMapper1.class
+rs/RSjoin$TriangleReducer.class
+rs/RSjoin$TriangleMapper2.class
